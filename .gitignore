@@ -47,3 +47,8 @@ data/generated/profiles/
 data/generated/seird_results.csv
 data/generated/mobility_graph.json
 data/generated/mc_seeds.json
+
+# Agent and Architecture documentation
+AGENTS.md
+frontend_architecture_and_roadmap.md
+
