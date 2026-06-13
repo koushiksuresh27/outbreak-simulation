@@ -1,0 +1,1032 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "node_id": "KA-01",
+            "name": "Bengaluru Urban",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 2393845,
+            "lat": 12.9719,
+            "lon": 77.5937,
+            "zone": "metro",
+            "has_airport": true,
+            "airport_code": "BLR",
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-01"
+        },
+        {
+            "node_id": "KA-02",
+            "name": "Mysuru",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 700968,
+            "lat": 12.3068,
+            "lon": 76.6483,
+            "zone": "inland_south",
+            "has_airport": true,
+            "airport_code": "MYQ",
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-02"
+        },
+        {
+            "node_id": "KA-03",
+            "name": "Mangaluru",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 439733,
+            "lat": 12.87,
+            "lon": 74.88,
+            "zone": "coastal",
+            "has_airport": true,
+            "airport_code": "IXE",
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-03"
+        },
+        {
+            "node_id": "KA-04",
+            "name": "Hubballi-Dharwad",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 382700,
+            "lat": 15.4589,
+            "lon": 75.006,
+            "zone": "inland_north",
+            "has_airport": true,
+            "airport_code": "HBX",
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-04"
+        },
+        {
+            "node_id": "KA-05",
+            "name": "Belagavi",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 983854,
+            "lat": 21.7679,
+            "lon": 78.8718,
+            "zone": "border",
+            "has_airport": true,
+            "airport_code": "IXG",
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-05"
+        },
+        {
+            "node_id": "KA-06",
+            "name": "Kalaburagi",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 471601,
+            "lat": 17.3297,
+            "lon": 76.8343,
+            "zone": "border",
+            "has_airport": true,
+            "airport_code": "GBI",
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-06"
+        },
+        {
+            "node_id": "KA-07",
+            "name": "Shivamogga",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 406816,
+            "lat": 13.917,
+            "lon": 75.567,
+            "zone": "inland_south",
+            "has_airport": true,
+            "airport_code": "RQY",
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-07"
+        },
+        {
+            "node_id": "KA-08",
+            "name": "Tumakuru",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 640081,
+            "lat": 13.3414,
+            "lon": 77.1022,
+            "zone": "inland_south",
+            "has_airport": false,
+            "airport_code": null,
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-08"
+        },
+        {
+            "node_id": "KA-09",
+            "name": "Vijayapura",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 408806,
+            "lat": 16.8286,
+            "lon": 75.7141,
+            "zone": "border",
+            "has_airport": false,
+            "airport_code": null,
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-09"
+        },
+        {
+            "node_id": "KA-10",
+            "name": "Hassan",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 433453,
+            "lat": 13.0071,
+            "lon": 76.0962,
+            "zone": "inland_south",
+            "has_airport": false,
+            "airport_code": null,
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-10"
+        },
+        {
+            "node_id": "KA-11",
+            "name": "Udupi",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 253078,
+            "lat": 13.340881,
+            "lon": 74.74214,
+            "zone": "coastal",
+            "has_airport": false,
+            "airport_code": null,
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-11"
+        },
+        {
+            "node_id": "KA-12",
+            "name": "Kolar",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 333348,
+            "lat": 13.13768,
+            "lon": 78.12999,
+            "zone": "border",
+            "has_airport": false,
+            "airport_code": null,
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-12"
+        },
+        {
+            "node_id": "KA-13",
+            "name": "Bagalkot",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 361149,
+            "lat": 16.1792,
+            "lon": 75.6994,
+            "zone": "inland_north",
+            "has_airport": false,
+            "airport_code": null,
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-13"
+        },
+        {
+            "node_id": "KA-14",
+            "name": "Bidar",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 319937,
+            "lat": 17.91331,
+            "lon": 77.53011,
+            "zone": "border",
+            "has_airport": false,
+            "airport_code": null,
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-14"
+        },
+        {
+            "node_id": "KA-15",
+            "name": "Raichur",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 363853,
+            "lat": 16.2055,
+            "lon": 77.3557,
+            "zone": "inland_north",
+            "has_airport": false,
+            "airport_code": null,
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-15"
+        },
+        {
+            "node_id": "KA-16",
+            "name": "Koppal",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 264595,
+            "lat": 15.3524,
+            "lon": 76.1557,
+            "zone": "inland_north",
+            "has_airport": false,
+            "airport_code": null,
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-16"
+        },
+        {
+            "node_id": "KA-17",
+            "name": "Gadag",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 219096,
+            "lat": 15.4167,
+            "lon": 75.616,
+            "zone": "inland_north",
+            "has_airport": false,
+            "airport_code": null,
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-17"
+        },
+        {
+            "node_id": "KA-18",
+            "name": "Uttara Kannada",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 324530,
+            "lat": 14.794,
+            "lon": 74.6202,
+            "zone": "coastal",
+            "has_airport": false,
+            "airport_code": null,
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-18"
+        },
+        {
+            "node_id": "KA-19",
+            "name": "Haveri",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 330414,
+            "lat": 14.7948,
+            "lon": 75.411,
+            "zone": "inland_north",
+            "has_airport": false,
+            "airport_code": null,
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-19"
+        },
+        {
+            "node_id": "KA-20",
+            "name": "Ballari",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 489118,
+            "lat": 15.1394,
+            "lon": 76.9216,
+            "zone": "inland_north",
+            "has_airport": false,
+            "airport_code": null,
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-20"
+        },
+        {
+            "node_id": "KA-21",
+            "name": "Chitradurga",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 357003,
+            "lat": 14.23,
+            "lon": 76.4,
+            "zone": "inland_south",
+            "has_airport": false,
+            "airport_code": null,
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-21"
+        },
+        {
+            "node_id": "KA-22",
+            "name": "Davanagere",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 410176,
+            "lat": 14.4644,
+            "lon": 75.9218,
+            "zone": "inland_south",
+            "has_airport": false,
+            "airport_code": null,
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-22"
+        },
+        {
+            "node_id": "KA-23",
+            "name": "Chikkamagaluru",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 276085,
+            "lat": 13.3223,
+            "lon": 75.774,
+            "zone": "inland_south",
+            "has_airport": false,
+            "airport_code": null,
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-23"
+        },
+        {
+            "node_id": "KA-24",
+            "name": "Mandya",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 428625,
+            "lat": 12.5274502,
+            "lon": 76.8944862,
+            "zone": "inland_south",
+            "has_airport": false,
+            "airport_code": null,
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-24"
+        },
+        {
+            "node_id": "KA-25",
+            "name": "Kodagu",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 142716,
+            "lat": 12.32490039,
+            "lon": 75.800752,
+            "zone": "inland_south",
+            "has_airport": false,
+            "airport_code": null,
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-25"
+        },
+        {
+            "node_id": "KA-26",
+            "name": "Chamarajanagar",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 244874,
+            "lat": 12.07,
+            "lon": 76.94,
+            "zone": "inland_south",
+            "has_airport": false,
+            "airport_code": null,
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-26"
+        },
+        {
+            "node_id": "KA-27",
+            "name": "Yadgir",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 202063,
+            "lat": 16.7703,
+            "lon": 77.1322,
+            "zone": "border",
+            "has_airport": false,
+            "airport_code": null,
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-27"
+        },
+        {
+            "node_id": "KA-28",
+            "name": "Chikkaballapura",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 284698,
+            "lat": 13.55,
+            "lon": 77.87,
+            "zone": "inland_south",
+            "has_airport": false,
+            "airport_code": null,
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-28"
+        },
+        {
+            "node_id": "KA-29",
+            "name": "Bengaluru Rural",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 229279,
+            "lat": 13.2272427,
+            "lon": 77.574021,
+            "zone": "inland_south",
+            "has_airport": false,
+            "airport_code": null,
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-29"
+        },
+        {
+            "node_id": "KA-30",
+            "name": "Ramanagara",
+            "state": "Karnataka",
+            "is_karnataka": true,
+            "population": 260533,
+            "lat": 12.7201,
+            "lon": 77.2834,
+            "zone": "inland_south",
+            "has_airport": false,
+            "airport_code": null,
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "KA-30"
+        },
+        {
+            "node_id": "EXT-01",
+            "name": "Hyderabad",
+            "state": "Telangana",
+            "is_karnataka": false,
+            "population": 10500000,
+            "lat": 17.385,
+            "lon": 78.4867,
+            "zone": "other",
+            "has_airport": true,
+            "airport_code": "HYD",
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "EXT-01"
+        },
+        {
+            "node_id": "EXT-02",
+            "name": "Chennai",
+            "state": "Tamil Nadu",
+            "is_karnataka": false,
+            "population": 11200000,
+            "lat": 13.0827,
+            "lon": 80.2707,
+            "zone": "other",
+            "has_airport": true,
+            "airport_code": "MAA",
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "EXT-02"
+        },
+        {
+            "node_id": "EXT-03",
+            "name": "Mumbai",
+            "state": "Maharashtra",
+            "is_karnataka": false,
+            "population": 20700000,
+            "lat": 19.076,
+            "lon": 72.8777,
+            "zone": "other",
+            "has_airport": true,
+            "airport_code": "BOM",
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "EXT-03"
+        },
+        {
+            "node_id": "EXT-04",
+            "name": "Pune",
+            "state": "Maharashtra",
+            "is_karnataka": false,
+            "population": 7400000,
+            "lat": 18.5204,
+            "lon": 73.8567,
+            "zone": "other",
+            "has_airport": true,
+            "airport_code": "PNQ",
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "EXT-04"
+        },
+        {
+            "node_id": "EXT-05",
+            "name": "Goa",
+            "state": "Goa",
+            "is_karnataka": false,
+            "population": 800000,
+            "lat": 15.2993,
+            "lon": 74.124,
+            "zone": "other",
+            "has_airport": true,
+            "airport_code": "GOI",
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "EXT-05"
+        },
+        {
+            "node_id": "EXT-06",
+            "name": "Coimbatore",
+            "state": "Tamil Nadu",
+            "is_karnataka": false,
+            "population": 2100000,
+            "lat": 11.0168,
+            "lon": 76.9558,
+            "zone": "other",
+            "has_airport": true,
+            "airport_code": "CJB",
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "EXT-06"
+        },
+        {
+            "node_id": "EXT-07",
+            "name": "Kochi",
+            "state": "Kerala",
+            "is_karnataka": false,
+            "population": 2300000,
+            "lat": 9.9312,
+            "lon": 76.2673,
+            "zone": "other",
+            "has_airport": true,
+            "airport_code": "COK",
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "EXT-07"
+        },
+        {
+            "node_id": "EXT-08",
+            "name": "Delhi",
+            "state": "Delhi",
+            "is_karnataka": false,
+            "population": 32000000,
+            "lat": 28.6139,
+            "lon": 77.209,
+            "zone": "other",
+            "has_airport": true,
+            "airport_code": "DEL",
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "EXT-08"
+        },
+        {
+            "node_id": "EXT-09",
+            "name": "Kolkata",
+            "state": "West Bengal",
+            "is_karnataka": false,
+            "population": 14800000,
+            "lat": 22.5726,
+            "lon": 88.3639,
+            "zone": "other",
+            "has_airport": true,
+            "airport_code": "CCU",
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "EXT-09"
+        },
+        {
+            "node_id": "EXT-10",
+            "name": "Ahmedabad",
+            "state": "Gujarat",
+            "is_karnataka": false,
+            "population": 8650000,
+            "lat": 23.0225,
+            "lon": 72.5714,
+            "zone": "other",
+            "has_airport": true,
+            "airport_code": "AMD",
+            "age_distribution": {
+                "0_14": 0.27,
+                "15_29": 0.28,
+                "30_59": 0.33,
+                "60_plus": 0.12
+            },
+            "id": "EXT-10"
+        }
+    ],
+    "edges": [
+        {
+            "weight": 42,
+            "modes": [
+                "rail"
+            ],
+            "source": "KA-01",
+            "target": "KA-02"
+        },
+        {
+            "weight": 371,
+            "modes": [
+                "rail",
+                "air"
+            ],
+            "source": "KA-01",
+            "target": "KA-03"
+        },
+        {
+            "weight": 278,
+            "modes": [
+                "rail",
+                "air"
+            ],
+            "source": "KA-01",
+            "target": "KA-04"
+        },
+        {
+            "weight": 35,
+            "modes": [
+                "rail"
+            ],
+            "source": "KA-01",
+            "target": "KA-08"
+        },
+        {
+            "weight": 2118,
+            "modes": [
+                "rail",
+                "air"
+            ],
+            "source": "KA-01",
+            "target": "EXT-02"
+        },
+        {
+            "weight": 4214,
+            "modes": [
+                "rail",
+                "air"
+            ],
+            "source": "KA-01",
+            "target": "EXT-03"
+        },
+        {
+            "weight": 2412,
+            "modes": [
+                "rail",
+                "air"
+            ],
+            "source": "KA-01",
+            "target": "EXT-01"
+        },
+        {
+            "weight": 15,
+            "modes": [
+                "rail"
+            ],
+            "source": "KA-01",
+            "target": "KA-06"
+        },
+        {
+            "weight": 10,
+            "modes": [
+                "rail"
+            ],
+            "source": "KA-01",
+            "target": "KA-07"
+        },
+        {
+            "weight": 3800,
+            "modes": [
+                "air"
+            ],
+            "source": "KA-01",
+            "target": "EXT-08"
+        },
+        {
+            "weight": 180,
+            "modes": [
+                "air"
+            ],
+            "source": "KA-01",
+            "target": "KA-05"
+        },
+        {
+            "weight": 1500,
+            "modes": [
+                "air"
+            ],
+            "source": "KA-01",
+            "target": "EXT-04"
+        },
+        {
+            "weight": 1200,
+            "modes": [
+                "air"
+            ],
+            "source": "KA-01",
+            "target": "EXT-05"
+        },
+        {
+            "weight": 1900,
+            "modes": [
+                "air"
+            ],
+            "source": "KA-01",
+            "target": "EXT-09"
+        },
+        {
+            "weight": 1600,
+            "modes": [
+                "air"
+            ],
+            "source": "KA-01",
+            "target": "EXT-10"
+        },
+        {
+            "weight": 14,
+            "modes": [
+                "rail"
+            ],
+            "source": "KA-02",
+            "target": "KA-10"
+        },
+        {
+            "weight": 386,
+            "modes": [
+                "rail",
+                "air"
+            ],
+            "source": "KA-03",
+            "target": "EXT-07"
+        },
+        {
+            "weight": 20,
+            "modes": [
+                "rail"
+            ],
+            "source": "KA-03",
+            "target": "KA-11"
+        },
+        {
+            "weight": 420,
+            "modes": [
+                "air"
+            ],
+            "source": "KA-03",
+            "target": "EXT-03"
+        },
+        {
+            "weight": 14,
+            "modes": [
+                "rail"
+            ],
+            "source": "KA-04",
+            "target": "KA-05"
+        },
+        {
+            "weight": 12,
+            "modes": [
+                "rail"
+            ],
+            "source": "KA-04",
+            "target": "KA-09"
+        },
+        {
+            "weight": 11,
+            "modes": [
+                "rail"
+            ],
+            "source": "KA-05",
+            "target": "EXT-03"
+        },
+        {
+            "weight": 9,
+            "modes": [
+                "rail"
+            ],
+            "source": "KA-05",
+            "target": "EXT-04"
+        },
+        {
+            "weight": 10,
+            "modes": [
+                "rail"
+            ],
+            "source": "KA-06",
+            "target": "EXT-01"
+        },
+        {
+            "weight": 8,
+            "modes": [
+                "rail"
+            ],
+            "source": "KA-12",
+            "target": "EXT-02"
+        },
+        {
+            "weight": 25,
+            "modes": [
+                "rail"
+            ],
+            "source": "EXT-01",
+            "target": "EXT-02"
+        },
+        {
+            "weight": 22,
+            "modes": [
+                "rail"
+            ],
+            "source": "EXT-02",
+            "target": "EXT-06"
+        },
+        {
+            "weight": 2200,
+            "modes": [
+                "air"
+            ],
+            "source": "EXT-02",
+            "target": "EXT-08"
+        },
+        {
+            "weight": 60,
+            "modes": [
+                "rail"
+            ],
+            "source": "EXT-03",
+            "target": "EXT-04"
+        },
+        {
+            "weight": 5545,
+            "modes": [
+                "rail",
+                "air"
+            ],
+            "source": "EXT-03",
+            "target": "EXT-08"
+        },
+        {
+            "weight": 1100,
+            "modes": [
+                "air"
+            ],
+            "source": "EXT-03",
+            "target": "EXT-05"
+        },
+        {
+            "weight": 18,
+            "modes": [
+                "rail"
+            ],
+            "source": "EXT-06",
+            "target": "EXT-07"
+        }
+    ]
+}

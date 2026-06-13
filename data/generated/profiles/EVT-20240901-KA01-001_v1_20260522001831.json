@@ -1,0 +1,41 @@
+{
+    "disease_name": "dengue",
+    "R0_estimate": 4.778,
+    "mortality_rate": 0.001,
+    "data_confidence": "HIGH",
+    "template_confidence": 0.845,
+    "seasonal_multiplier": 1.3,
+    "base_template": {
+        "name": "dengue",
+        "symptoms": [
+            "fever",
+            "rash",
+            "joint_pain",
+            "headache",
+            "myalgia",
+            "retro_orbital_pain",
+            "thrombocytopenia"
+        ],
+        "R0": {
+            "estimate": 3.0,
+            "lower_95": 2.0,
+            "upper_95": 4.5
+        },
+        "incubation_days": {
+            "min": 4,
+            "mean": 6,
+            "max": 10
+        },
+        "mortality_rate": {
+            "estimate": 0.001,
+            "lower_95": 0.0005,
+            "upper_95": 0.003
+        },
+        "contagiousness_factor": 0.55,
+        "clinical_duration_days": 7,
+        "transmission_mode": "vector-borne",
+        "seasonal_peaks": [
+            "monsoon"
+        ]
+    }
+}

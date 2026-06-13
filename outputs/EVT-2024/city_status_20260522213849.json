@@ -1,0 +1,242 @@
+{
+    "KA-01": {
+        "overwhelmed": true,
+        "days_overwhelmed": 12,
+        "first_overwhelm_day": 79,
+        "peak_day": 90
+    },
+    "KA-02": {
+        "overwhelmed": true,
+        "days_overwhelmed": 8,
+        "first_overwhelm_day": 83,
+        "peak_day": 90
+    },
+    "KA-03": {
+        "overwhelmed": true,
+        "days_overwhelmed": 9,
+        "first_overwhelm_day": 82,
+        "peak_day": 90
+    },
+    "KA-04": {
+        "overwhelmed": true,
+        "days_overwhelmed": 10,
+        "first_overwhelm_day": 81,
+        "peak_day": 90
+    },
+    "KA-05": {
+        "overwhelmed": true,
+        "days_overwhelmed": 12,
+        "first_overwhelm_day": 79,
+        "peak_day": 90
+    },
+    "KA-06": {
+        "overwhelmed": true,
+        "days_overwhelmed": 13,
+        "first_overwhelm_day": 78,
+        "peak_day": 90
+    },
+    "KA-07": {
+        "overwhelmed": true,
+        "days_overwhelmed": 15,
+        "first_overwhelm_day": 76,
+        "peak_day": 90
+    },
+    "KA-08": {
+        "overwhelmed": true,
+        "days_overwhelmed": 14,
+        "first_overwhelm_day": 77,
+        "peak_day": 90
+    },
+    "KA-09": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "KA-10": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "KA-11": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "KA-12": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "KA-13": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "KA-14": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "KA-15": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "KA-16": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "KA-17": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "KA-18": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "KA-19": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "KA-20": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "KA-21": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "KA-22": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "KA-23": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "KA-24": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "KA-25": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "KA-26": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "KA-27": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "KA-28": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "KA-29": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "KA-30": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "EXT-01": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 90
+    },
+    "EXT-02": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 90
+    },
+    "EXT-03": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 90
+    },
+    "EXT-04": {
+        "overwhelmed": true,
+        "days_overwhelmed": 2,
+        "first_overwhelm_day": 89,
+        "peak_day": 90
+    },
+    "EXT-05": {
+        "overwhelmed": true,
+        "days_overwhelmed": 18,
+        "first_overwhelm_day": 73,
+        "peak_day": 90
+    },
+    "EXT-06": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "EXT-07": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 0
+    },
+    "EXT-08": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 90
+    },
+    "EXT-09": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 90
+    },
+    "EXT-10": {
+        "overwhelmed": false,
+        "days_overwhelmed": 0,
+        "first_overwhelm_day": null,
+        "peak_day": 90
+    }
+}

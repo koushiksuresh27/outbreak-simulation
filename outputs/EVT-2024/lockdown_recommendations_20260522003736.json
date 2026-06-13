@@ -1,0 +1,167 @@
+[
+    {
+        "source": "KA-01",
+        "target": "EXT-03",
+        "source_name": "Bengaluru Urban",
+        "target_name": "Mumbai",
+        "modes": "rail,air",
+        "edge_weight": 4214,
+        "betweenness": 0.0,
+        "infection_pressure": 17874.35415967612,
+        "combined_score": 7149.741663870449
+    },
+    {
+        "source": "KA-01",
+        "target": "EXT-08",
+        "source_name": "Bengaluru Urban",
+        "target_name": "Delhi",
+        "modes": "air",
+        "edge_weight": 3800,
+        "betweenness": 0.0,
+        "infection_pressure": 16118.307025811404,
+        "combined_score": 6447.322810324562
+    },
+    {
+        "source": "KA-01",
+        "target": "EXT-01",
+        "source_name": "Bengaluru Urban",
+        "target_name": "Hyderabad",
+        "modes": "rail,air",
+        "edge_weight": 2412,
+        "betweenness": 0.0,
+        "infection_pressure": 10230.883301646607,
+        "combined_score": 4092.353320658643
+    },
+    {
+        "source": "KA-01",
+        "target": "EXT-02",
+        "source_name": "Bengaluru Urban",
+        "target_name": "Chennai",
+        "modes": "rail,air",
+        "edge_weight": 2118,
+        "betweenness": 0.0,
+        "infection_pressure": 8983.835337018041,
+        "combined_score": 3593.5341348072166
+    },
+    {
+        "source": "KA-01",
+        "target": "EXT-09",
+        "source_name": "Bengaluru Urban",
+        "target_name": "Kolkata",
+        "modes": "air",
+        "edge_weight": 1900,
+        "betweenness": 0.09090909090909091,
+        "infection_pressure": 8059.153512905702,
+        "combined_score": 3223.7159506168264
+    },
+    {
+        "source": "KA-01",
+        "target": "EXT-10",
+        "source_name": "Bengaluru Urban",
+        "target_name": "Ahmedabad",
+        "modes": "air",
+        "edge_weight": 1600,
+        "betweenness": 0.09090909090909091,
+        "infection_pressure": 6786.655589815328,
+        "combined_score": 2714.716781380677
+    },
+    {
+        "source": "KA-01",
+        "target": "EXT-04",
+        "source_name": "Bengaluru Urban",
+        "target_name": "Pune",
+        "modes": "air",
+        "edge_weight": 1500,
+        "betweenness": 0.0,
+        "infection_pressure": 6362.48961545187,
+        "combined_score": 2544.9958461807482
+    },
+    {
+        "source": "KA-01",
+        "target": "EXT-05",
+        "source_name": "Bengaluru Urban",
+        "target_name": "Goa",
+        "modes": "air",
+        "edge_weight": 1200,
+        "betweenness": 0.06060606060606061,
+        "infection_pressure": 5089.9916923614965,
+        "combined_score": 2036.0330405809623
+    },
+    {
+        "source": "EXT-03",
+        "target": "EXT-08",
+        "source_name": "Mumbai",
+        "target_name": "Delhi",
+        "modes": "rail,air",
+        "edge_weight": 5545,
+        "betweenness": 0.0,
+        "infection_pressure": 4738.442598954909,
+        "combined_score": 1895.3770395819638
+    },
+    {
+        "source": "KA-01",
+        "target": "KA-03",
+        "source_name": "Bengaluru Urban",
+        "target_name": "Mangaluru",
+        "modes": "rail,air",
+        "edge_weight": 371,
+        "betweenness": 0.1038961038961039,
+        "infection_pressure": 1573.6557648884293,
+        "combined_score": 629.5246436177094
+    },
+    {
+        "source": "KA-01",
+        "target": "KA-04",
+        "source_name": "Bengaluru Urban",
+        "target_name": "Hubballi-Dharwad",
+        "modes": "rail,air",
+        "edge_weight": 278,
+        "betweenness": 0.0,
+        "infection_pressure": 1179.1814087304133,
+        "combined_score": 471.67256349216535
+    },
+    {
+        "source": "EXT-02",
+        "target": "EXT-08",
+        "source_name": "Chennai",
+        "target_name": "Delhi",
+        "modes": "air",
+        "edge_weight": 2200,
+        "betweenness": 0.09090909090909091,
+        "infection_pressure": 940.5758784982728,
+        "combined_score": 376.2848968538546
+    },
+    {
+        "source": "EXT-03",
+        "target": "EXT-05",
+        "source_name": "Mumbai",
+        "target_name": "Goa",
+        "modes": "air",
+        "edge_weight": 1100,
+        "betweenness": 0.030303030303030304,
+        "infection_pressure": 939.9976300902434,
+        "combined_score": 376.0172338542792
+    },
+    {
+        "source": "KA-01",
+        "target": "KA-05",
+        "source_name": "Bengaluru Urban",
+        "target_name": "Belagavi",
+        "modes": "air",
+        "edge_weight": 180,
+        "betweenness": 0.30303030303030304,
+        "infection_pressure": 763.4987538542244,
+        "combined_score": 305.581319723508
+    },
+    {
+        "source": "KA-03",
+        "target": "EXT-03",
+        "source_name": "Mangaluru",
+        "target_name": "Mumbai",
+        "modes": "air",
+        "edge_weight": 420,
+        "betweenness": 0.05194805194805195,
+        "infection_pressure": 358.9081860344566,
+        "combined_score": 143.59444324495146
+    }
+]

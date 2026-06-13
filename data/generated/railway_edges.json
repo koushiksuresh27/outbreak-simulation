@@ -1,0 +1,140 @@
+[
+    {
+        "source": "KA-01",
+        "target": "KA-02",
+        "weight": 42,
+        "mode": "rail"
+    },
+    {
+        "source": "KA-01",
+        "target": "KA-03",
+        "weight": 21,
+        "mode": "rail"
+    },
+    {
+        "source": "KA-01",
+        "target": "KA-04",
+        "weight": 28,
+        "mode": "rail"
+    },
+    {
+        "source": "KA-01",
+        "target": "KA-08",
+        "weight": 35,
+        "mode": "rail"
+    },
+    {
+        "source": "KA-01",
+        "target": "EXT-02",
+        "weight": 18,
+        "mode": "rail"
+    },
+    {
+        "source": "KA-01",
+        "target": "EXT-03",
+        "weight": 14,
+        "mode": "rail"
+    },
+    {
+        "source": "KA-01",
+        "target": "EXT-01",
+        "weight": 12,
+        "mode": "rail"
+    },
+    {
+        "source": "KA-04",
+        "target": "KA-05",
+        "weight": 14,
+        "mode": "rail"
+    },
+    {
+        "source": "KA-05",
+        "target": "EXT-03",
+        "weight": 11,
+        "mode": "rail"
+    },
+    {
+        "source": "KA-05",
+        "target": "EXT-04",
+        "weight": 9,
+        "mode": "rail"
+    },
+    {
+        "source": "KA-06",
+        "target": "EXT-01",
+        "weight": 10,
+        "mode": "rail"
+    },
+    {
+        "source": "KA-12",
+        "target": "EXT-02",
+        "weight": 8,
+        "mode": "rail"
+    },
+    {
+        "source": "KA-03",
+        "target": "EXT-07",
+        "weight": 6,
+        "mode": "rail"
+    },
+    {
+        "source": "KA-01",
+        "target": "KA-06",
+        "weight": 15,
+        "mode": "rail"
+    },
+    {
+        "source": "KA-01",
+        "target": "KA-07",
+        "weight": 10,
+        "mode": "rail"
+    },
+    {
+        "source": "KA-04",
+        "target": "KA-09",
+        "weight": 12,
+        "mode": "rail"
+    },
+    {
+        "source": "KA-02",
+        "target": "KA-10",
+        "weight": 14,
+        "mode": "rail"
+    },
+    {
+        "source": "KA-03",
+        "target": "KA-11",
+        "weight": 20,
+        "mode": "rail"
+    },
+    {
+        "source": "EXT-01",
+        "target": "EXT-02",
+        "weight": 25,
+        "mode": "rail"
+    },
+    {
+        "source": "EXT-03",
+        "target": "EXT-04",
+        "weight": 60,
+        "mode": "rail"
+    },
+    {
+        "source": "EXT-03",
+        "target": "EXT-08",
+        "weight": 45,
+        "mode": "rail"
+    },
+    {
+        "source": "EXT-02",
+        "target": "EXT-06",
+        "weight": 22,
+        "mode": "rail"
+    },
+    {
+        "source": "EXT-06",
+        "target": "EXT-07",
+        "weight": 18,
+        "mode": "rail"
+    }
+]

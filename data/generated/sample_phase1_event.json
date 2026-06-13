@@ -1,0 +1,19 @@
+{
+    "event_id": "EVT-20240901-KA01-001",
+    "location": "Bengaluru, Karnataka",
+    "origin_node_id": "KA-01",
+    "symptoms_list": [
+        "fever",
+        "rash",
+        "joint_pain",
+        "headache",
+        "myalgia"
+    ],
+    "report_count": 14,
+    "initial_risk_score": 72.5,
+    "confidence_score": 0.81,
+    "source_credibility": 0.78,
+    "signal_type": "outbreak_event",
+    "first_detected_at": "2024-09-01T08:30:00Z",
+    "zone": "metro"
+}

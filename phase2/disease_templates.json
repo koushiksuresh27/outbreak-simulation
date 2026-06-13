@@ -1,0 +1,90 @@
+[
+  {
+    "name": "dengue",
+    "symptoms": ["fever", "rash", "joint_pain", "headache", "myalgia", "retro_orbital_pain", "thrombocytopenia"],
+    "R0": { "estimate": 3.0, "lower_95": 2.0, "upper_95": 4.5 },
+    "incubation_days": { "min": 4, "mean": 6, "max": 10 },
+    "mortality_rate": { "estimate": 0.001, "lower_95": 0.0005, "upper_95": 0.003 },
+    "contagiousness_factor": 0.55,
+    "clinical_duration_days": 7,
+    "transmission_mode": "vector-borne",
+    "seasonal_peaks": ["monsoon"]
+  },
+  {
+    "name": "tuberculosis",
+    "symptoms": ["cough", "fever", "weight_loss", "night_sweats", "fatigue", "chest_pain"],
+    "R0": { "estimate": 4.0, "lower_95": 3.0, "upper_95": 5.0 },
+    "incubation_days": { "min": 21, "mean": 42, "max": 90 },
+    "mortality_rate": { "estimate": 0.15, "lower_95": 0.1, "upper_95": 0.2 },
+    "contagiousness_factor": 0.2,
+    "clinical_duration_days": 180,
+    "transmission_mode": "airborne",
+    "seasonal_peaks": []
+  },
+  {
+    "name": "cholera",
+    "symptoms": ["diarrhea", "vomiting", "leg_cramps", "dehydration", "rapid_heart_rate"],
+    "R0": { "estimate": 2.5, "lower_95": 1.5, "upper_95": 3.5 },
+    "incubation_days": { "min": 1, "mean": 3, "max": 5 },
+    "mortality_rate": { "estimate": 0.01, "lower_95": 0.001, "upper_95": 0.03 },
+    "contagiousness_factor": 0.6,
+    "clinical_duration_days": 5,
+    "transmission_mode": "water-borne",
+    "seasonal_peaks": ["monsoon"]
+  },
+  {
+    "name": "influenza_seasonal",
+    "symptoms": ["fever", "cough", "sore_throat", "runny_nose", "muscle_ache", "fatigue", "headache"],
+    "R0": { "estimate": 1.5, "lower_95": 1.2, "upper_95": 1.8 },
+    "incubation_days": { "min": 1, "mean": 2, "max": 4 },
+    "mortality_rate": { "estimate": 0.001, "lower_95": 0.0001, "upper_95": 0.002 },
+    "contagiousness_factor": 0.4,
+    "clinical_duration_days": 7,
+    "transmission_mode": "droplet",
+    "seasonal_peaks": ["winter", "monsoon"]
+  },
+  {
+    "name": "covid19_wildtype",
+    "symptoms": ["fever", "cough", "fatigue", "loss_of_taste", "loss_of_smell", "shortness_of_breath"],
+    "R0": { "estimate": 2.8, "lower_95": 2.2, "upper_95": 3.5 },
+    "incubation_days": { "min": 2, "mean": 5, "max": 14 },
+    "mortality_rate": { "estimate": 0.02, "lower_95": 0.01, "upper_95": 0.03 },
+    "contagiousness_factor": 0.7,
+    "clinical_duration_days": 14,
+    "transmission_mode": "airborne",
+    "seasonal_peaks": []
+  },
+  {
+    "name": "nipah",
+    "symptoms": ["fever", "headache", "myalgia", "vomiting", "sore_throat", "dizziness", "encephalitis"],
+    "R0": { "estimate": 0.4, "lower_95": 0.2, "upper_95": 0.6 },
+    "incubation_days": { "min": 4, "mean": 9, "max": 14 },
+    "mortality_rate": { "estimate": 0.5, "lower_95": 0.4, "upper_95": 0.75 },
+    "contagiousness_factor": 0.3,
+    "clinical_duration_days": 14,
+    "transmission_mode": "contact",
+    "seasonal_peaks": ["winter"]
+  },
+  {
+    "name": "leptospirosis",
+    "symptoms": ["fever", "headache", "chills", "muscle_ache", "vomiting", "jaundice", "red_eyes", "abdominal_pain"],
+    "R0": { "estimate": 1.1, "lower_95": 0.8, "upper_95": 1.5 },
+    "incubation_days": { "min": 2, "mean": 10, "max": 30 },
+    "mortality_rate": { "estimate": 0.05, "lower_95": 0.01, "upper_95": 0.1 },
+    "contagiousness_factor": 0.2,
+    "clinical_duration_days": 21,
+    "transmission_mode": "water-borne",
+    "seasonal_peaks": ["monsoon"]
+  },
+  {
+    "name": "chikungunya",
+    "symptoms": ["fever", "joint_pain", "headache", "muscle_pain", "joint_swelling", "rash"],
+    "R0": { "estimate": 2.5, "lower_95": 1.5, "upper_95": 3.5 },
+    "incubation_days": { "min": 3, "mean": 5, "max": 7 },
+    "mortality_rate": { "estimate": 0.001, "lower_95": 0.0001, "upper_95": 0.002 },
+    "contagiousness_factor": 0.5,
+    "clinical_duration_days": 10,
+    "transmission_mode": "vector-borne",
+    "seasonal_peaks": ["monsoon"]
+  }
+]
