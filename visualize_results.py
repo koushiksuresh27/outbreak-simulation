@@ -54,26 +54,24 @@ def main():
     
     saved_files = []
     
-    # Chart 1: SEIRD curve for KA-01 Bengaluru (P10/P50/P90 bands)
+    # Chart 1: SEIRD curve for THRISSUR (P10/P50/P90 bands)
     plt.figure(figsize=(10, 6))
-    ka01 = cb.get("KA-01")
-    if ka01:
-        p50 = ka01["P50"]
-        p10 = ka01["P10"]
-        p90 = ka01["P90"]
-        days = np.arange(len(p50))
+    thr = cb.get("THRISSUR")
+    if thr:
+        days = np.arange(len(thr["I_p50"]))
+        plt.fill_between(days, thr["I_p10"], thr["I_p90"], color='red', alpha=0.2, label='Infections (P10-P90)')
+        plt.plot(days, thr["I_p50"], 'r-', label='Infections (Median)')
         
-        plt.plot(days, p50, label='I (Median P50)', color='blue')
-        plt.fill_between(days, p10, p90, color='blue', alpha=0.2, label='P10-P90 Confidence')
+        plt.fill_between(days, thr["D_p10"], thr["D_p90"], color='black', alpha=0.2, label='Deaths (P10-P90)')
+        plt.plot(days, thr["D_p50"], 'k--', label='Deaths (Median)')
         
-        ka01_cap = caps.get("KA-01")
-        if ka01_cap:
-            threshold = ka01_cap["total_beds"] * ka01_cap.get("overwhelm_threshold_pct", 0.3)
-            plt.axhline(threshold, color='red', linestyle='--', label=f'Hospital Threshold ({int(threshold):,} beds)')
+        thr_cap = caps.get("THRISSUR")
+        if thr_cap:
+            plt.axhline(y=thr_cap["total_beds"], color='orange', linestyle=':', label='Hospital Capacity')
             
-        plt.title("Bengaluru — Infectious Population Forecast (90 days)")
+        plt.title("SEIRD Bands: Thrissur")
         plt.xlabel("Days")
-        plt.ylabel("Infectious Population")
+        plt.ylabel("Population Count")
         plt.legend()
         plt.grid(True, alpha=0.3)
         c1_path = os.path.join(charts_dir, "chart1_ka01_forecast.png")

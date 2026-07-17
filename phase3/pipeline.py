@@ -150,7 +150,7 @@ if __name__ == "__main__":
     
     # 3. Run Phase 3
     print("Running end-to-end Phase 3 Orchestrator...")
-    origin = event.get("origin_node_id", "KA-01")
+    origin = event.get("origin_node_id", "THRISSUR")
     output_files, res_no_lockdown, city_status, ranked_targets = run_phase3(event, profile, origin, n_runs=50, days=90)
     
     # 4. Print summary table

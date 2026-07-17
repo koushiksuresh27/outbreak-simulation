@@ -6,7 +6,7 @@ def generate():
         "event_id": "covid-2020-india-thrissur-001",
         "location_city": "Thrissur",
         "location_state": "Kerala",
-        "origin_node_id": "EXT-07",
+        "origin_node_id": "THRISSUR",
         "symptoms_list": ["fever", "cough", "fatigue", "loss_of_taste", "loss_of_smell", "shortness_of_breath"],
         "report_count": 5,
         "status": "active",

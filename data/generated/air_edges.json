@@ -1,98 +1,212 @@
 [
     {
-        "source": "KA-01",
-        "target": "EXT-03",
-        "weight": 4200,
-        "mode": "air"
-    },
-    {
-        "source": "KA-01",
-        "target": "EXT-08",
-        "weight": 3800,
-        "mode": "air"
-    },
-    {
-        "source": "KA-01",
-        "target": "EXT-02",
-        "weight": 2100,
-        "mode": "air"
-    },
-    {
-        "source": "KA-01",
-        "target": "EXT-01",
-        "weight": 2400,
-        "mode": "air"
-    },
-    {
-        "source": "KA-03",
-        "target": "EXT-03",
-        "weight": 420,
-        "mode": "air"
-    },
-    {
-        "source": "KA-03",
-        "target": "EXT-07",
-        "weight": 380,
-        "mode": "air"
-    },
-    {
-        "source": "KA-01",
-        "target": "KA-03",
-        "weight": 350,
-        "mode": "air"
-    },
-    {
-        "source": "KA-01",
-        "target": "KA-04",
-        "weight": 250,
-        "mode": "air"
-    },
-    {
-        "source": "KA-01",
-        "target": "KA-05",
-        "weight": 180,
-        "mode": "air"
-    },
-    {
-        "source": "KA-01",
-        "target": "EXT-04",
-        "weight": 1500,
-        "mode": "air"
-    },
-    {
-        "source": "KA-01",
-        "target": "EXT-05",
-        "weight": 1200,
-        "mode": "air"
-    },
-    {
-        "source": "KA-01",
-        "target": "EXT-09",
-        "weight": 1900,
-        "mode": "air"
-    },
-    {
-        "source": "KA-01",
-        "target": "EXT-10",
-        "weight": 1600,
-        "mode": "air"
-    },
-    {
-        "source": "EXT-03",
-        "target": "EXT-08",
+        "source": "DELHI",
+        "target": "MUMBAI",
         "weight": 5500,
         "mode": "air"
     },
     {
-        "source": "EXT-03",
-        "target": "EXT-05",
+        "source": "DELHI",
+        "target": "BENGALURU",
+        "weight": 3800,
+        "mode": "air"
+    },
+    {
+        "source": "DELHI",
+        "target": "CHENNAI",
+        "weight": 2200,
+        "mode": "air"
+    },
+    {
+        "source": "DELHI",
+        "target": "KOLKATA",
+        "weight": 2500,
+        "mode": "air"
+    },
+    {
+        "source": "DELHI",
+        "target": "HYDERABAD",
+        "weight": 2300,
+        "mode": "air"
+    },
+    {
+        "source": "MUMBAI",
+        "target": "BENGALURU",
+        "weight": 4200,
+        "mode": "air"
+    },
+    {
+        "source": "MUMBAI",
+        "target": "CHENNAI",
+        "weight": 2100,
+        "mode": "air"
+    },
+    {
+        "source": "MUMBAI",
+        "target": "HYDERABAD",
+        "weight": 1900,
+        "mode": "air"
+    },
+    {
+        "source": "MUMBAI",
+        "target": "KOLKATA",
+        "weight": 1800,
+        "mode": "air"
+    },
+    {
+        "source": "BENGALURU",
+        "target": "CHENNAI",
+        "weight": 2100,
+        "mode": "air"
+    },
+    {
+        "source": "BENGALURU",
+        "target": "HYDERABAD",
+        "weight": 2400,
+        "mode": "air"
+    },
+    {
+        "source": "BENGALURU",
+        "target": "KOLKATA",
+        "weight": 1900,
+        "mode": "air"
+    },
+    {
+        "source": "CHENNAI",
+        "target": "HYDERABAD",
+        "weight": 1600,
+        "mode": "air"
+    },
+    {
+        "source": "CHENNAI",
+        "target": "KOLKATA",
+        "weight": 1500,
+        "mode": "air"
+    },
+    {
+        "source": "HYDERABAD",
+        "target": "KOLKATA",
+        "weight": 1400,
+        "mode": "air"
+    },
+    {
+        "source": "PUNE",
+        "target": "DELHI",
+        "weight": 1500,
+        "mode": "air"
+    },
+    {
+        "source": "PUNE",
+        "target": "BENGALURU",
+        "weight": 1200,
+        "mode": "air"
+    },
+    {
+        "source": "PUNE",
+        "target": "CHENNAI",
+        "weight": 800,
+        "mode": "air"
+    },
+    {
+        "source": "AHMEDABAD",
+        "target": "MUMBAI",
+        "weight": 1600,
+        "mode": "air"
+    },
+    {
+        "source": "AHMEDABAD",
+        "target": "DELHI",
+        "weight": 1700,
+        "mode": "air"
+    },
+    {
+        "source": "AHMEDABAD",
+        "target": "BENGALURU",
+        "weight": 900,
+        "mode": "air"
+    },
+    {
+        "source": "JAIPUR",
+        "target": "DELHI",
         "weight": 1100,
         "mode": "air"
     },
     {
-        "source": "EXT-08",
-        "target": "EXT-02",
-        "weight": 2200,
+        "source": "JAIPUR",
+        "target": "MUMBAI",
+        "weight": 900,
+        "mode": "air"
+    },
+    {
+        "source": "LUCKNOW",
+        "target": "DELHI",
+        "weight": 1300,
+        "mode": "air"
+    },
+    {
+        "source": "LUCKNOW",
+        "target": "MUMBAI",
+        "weight": 800,
+        "mode": "air"
+    },
+    {
+        "source": "NAGPUR",
+        "target": "MUMBAI",
+        "weight": 700,
+        "mode": "air"
+    },
+    {
+        "source": "NAGPUR",
+        "target": "DELHI",
+        "weight": 800,
+        "mode": "air"
+    },
+    {
+        "source": "KOCHI",
+        "target": "BENGALURU",
+        "weight": 1200,
+        "mode": "air"
+    },
+    {
+        "source": "KOCHI",
+        "target": "MUMBAI",
+        "weight": 900,
+        "mode": "air"
+    },
+    {
+        "source": "KOCHI",
+        "target": "CHENNAI",
+        "weight": 600,
+        "mode": "air"
+    },
+    {
+        "source": "THIRUVANANTHAPURAM",
+        "target": "BENGALURU",
+        "weight": 1000,
+        "mode": "air"
+    },
+    {
+        "source": "THIRUVANANTHAPURAM",
+        "target": "CHENNAI",
+        "weight": 700,
+        "mode": "air"
+    },
+    {
+        "source": "THIRUVANANTHAPURAM",
+        "target": "DELHI",
+        "weight": 500,
+        "mode": "air"
+    },
+    {
+        "source": "COIMBATORE",
+        "target": "CHENNAI",
+        "weight": 800,
+        "mode": "air"
+    },
+    {
+        "source": "COIMBATORE",
+        "target": "BENGALURU",
+        "weight": 500,
         "mode": "air"
     }
 ]

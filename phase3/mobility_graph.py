@@ -1,8 +1,8 @@
 import json
 import os
 import networkx as nx
-from railway_graph import build_rail_graph
-from air_graph import build_air_graph
+from phase3.railway_graph import build_rail_graph
+from phase3.air_graph import build_air_graph
 
 def get_data_dir():
     current_dir = os.path.dirname(os.path.abspath(__file__))
