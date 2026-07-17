@@ -7,7 +7,7 @@ import ResourceAllocator from './ResourceAllocator';
 const OutbreakDashboard = ({ dashboardData }) => {
   // Destructure payload with fallback defaults
   const {
-    eventId = 'EVT-000000',
+    eventId = 'covid-2020-india-thrissur-001',
     dataConfidence = 'HIGH', // LOW, MEDIUM, HIGH
     profileVersion = 'v1.0.0',
     lastRunTime = new Date().toISOString(),

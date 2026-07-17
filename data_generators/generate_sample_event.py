@@ -3,16 +3,18 @@ import os
 
 def generate():
     event = {
-        "event_id": "EVT-20240901-KA01-001",
-        "location": "Bengaluru, Karnataka",
-        "origin_node_id": "KA-01",
-        "symptoms_list": ["fever", "rash", "joint_pain", "headache", "myalgia"],
-        "report_count": 14,
-        "initial_risk_score": 72.5,
-        "confidence_score": 0.81,
-        "source_credibility": 0.78,
+        "event_id": "covid-2020-india-thrissur-001",
+        "location_city": "Thrissur",
+        "location_state": "Kerala",
+        "origin_node_id": "EXT-07",
+        "symptoms_list": ["fever", "cough", "fatigue", "loss_of_taste", "loss_of_smell", "shortness_of_breath"],
+        "report_count": 5,
+        "status": "active",
+        "initial_risk_score": 85.0,
+        "confidence_score": 0.6,
+        "source_credibility": 0.7,
         "signal_type": "outbreak_event",
-        "first_detected_at": "2024-09-01T08:30:00Z",
+        "first_detected_at": "2020-01-30T12:00:00Z",
         "zone": "metro"
     }
     
