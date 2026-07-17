@@ -86,5 +86,16 @@
     "clinical_duration_days": 10,
     "transmission_mode": "vector-borne",
     "seasonal_peaks": ["monsoon"]
+  },
+  {
+    "name": "monkeypox",
+    "symptoms": ["fever", "rash", "headache", "muscle_pain", "swollen_lymph_nodes", "chills"],
+    "R0": { "estimate": 1.5, "lower_95": 1.0, "upper_95": 2.0 },
+    "incubation_days": { "min": 7, "mean": 10, "max": 14 },
+    "mortality_rate": { "estimate": 0.03, "lower_95": 0.01, "upper_95": 0.06 },
+    "contagiousness_factor": 0.4,
+    "clinical_duration_days": 21,
+    "transmission_mode": "close_contact",
+    "seasonal_peaks": []
   }
 ]

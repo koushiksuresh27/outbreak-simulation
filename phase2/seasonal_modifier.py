@@ -3,8 +3,8 @@ def get_seasonal_multiplier(zone, month, disease_type):
     # Summer: March (3) to May (5)
     multiplier = 1.0
     
-    if 6 <= month <= 9:  # Monsoon
-        if disease_type == "dengue":
+    if 6 <= month <= 10:  # Monsoon
+        if disease_type in ["dengue", "chikungunya"]:
             multiplier += 0.30
         elif disease_type == "leptospirosis":
             multiplier += 0.40

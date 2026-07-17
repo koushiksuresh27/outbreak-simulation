@@ -37,27 +37,21 @@ def profile_pathogen(event):
     # Generate profile
     profile = profile_from_event(event, matched_template, conf, seasonal_mult)
     
-    # Save profile
+    from phase2.profile_versioner import get_next_version, save_profile_version, get_latest_profile
+    
+    # Versioning
     event_id = event.get("event_id", "UNKNOWN_EVENT")
-    timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
+    next_version = get_next_version(event_id)
+    profile["profile_version"] = next_version
     
-    filename = f"{event_id}_v1_{timestamp}.json"
-    filepath = os.path.join(get_profiles_dir(), filename)
-    
-    with open(filepath, 'w') as f:
-        json.dump(profile, f, indent=4)
+    # Save profile
+    save_profile_version(profile)
         
     return profile
 
 def load_latest_profile(event_id):
-    profiles_dir = get_profiles_dir()
-    pattern = os.path.join(profiles_dir, f"{event_id}_v1_*.json")
-    files = glob.glob(pattern)
-    if not files:
-        return None
-    latest_file = max(files, key=os.path.getctime)
-    with open(latest_file, 'r') as f:
-        return json.load(f)
+    from phase2.profile_versioner import get_latest_profile
+    return get_latest_profile(event_id)
 
 if __name__ == "__main__":
     import sys
