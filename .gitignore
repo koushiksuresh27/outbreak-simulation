@@ -27,7 +27,9 @@ lerna-debug.log*
 # IDE and OS files
 .vscode/
 !.vscode/extensions.json
+!.vscode/settings.json
 .idea/
+.antigravity/
 .DS_Store
 *.suo
 *.ntvs*
@@ -47,8 +49,10 @@ data/generated/profiles/
 data/generated/seird_results.csv
 data/generated/mobility_graph.json
 data/generated/mc_seeds.json
+backend/data/generated/
 
 # Agent and Architecture documentation
 AGENTS.md
-frontend_architecture_and_roadmap.md
+SESSION_LOG.md
+
 

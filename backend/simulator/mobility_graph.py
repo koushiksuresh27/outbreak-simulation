@@ -1,12 +1,12 @@
 import json
 import os
 import networkx as nx
-from phase3.railway_graph import build_rail_graph
-from phase3.air_graph import build_air_graph
+from backend.simulator.railway_graph import build_rail_graph
+from backend.simulator.air_graph import build_air_graph
 
 def get_data_dir():
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    return os.path.join(os.path.dirname(current_dir), "data", "generated")
+    return os.path.join(os.path.dirname(os.path.dirname(current_dir)), "data", "generated")
 
 def load_nodes():
     nodes_file = os.path.join(get_data_dir(), "nodes.json")

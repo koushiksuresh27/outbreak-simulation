@@ -78,8 +78,8 @@ def run_simulation(payload: dict):
     Returns full results: profile + confidence bands + city status + lockdown recs.
     """
     # Import here to avoid multiprocessing spawn issues on Windows
-    from phase2.pathogen_profiler import profile_pathogen
-    from phase3.pipeline import run_phase3
+    from backend.profiler.pathogen_profiler import profile_pathogen
+    from backend.simulator.pipeline import run_phase3
 
     # Fall back to sample event if payload empty
     if not payload:

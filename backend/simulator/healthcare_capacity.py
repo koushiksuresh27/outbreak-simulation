@@ -4,7 +4,7 @@ import numpy as np
 
 def get_data_dir():
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    return os.path.join(os.path.dirname(current_dir), "data", "generated")
+    return os.path.join(os.path.dirname(os.path.dirname(current_dir)), "data", "generated")
 
 def load_capacity():
     cap_file = os.path.join(get_data_dir(), "hospital_capacity.json")

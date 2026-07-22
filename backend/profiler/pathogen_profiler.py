@@ -3,9 +3,9 @@ import os
 import glob
 from datetime import datetime
 
-from phase2.template_matcher import match_template
-from phase2.seasonal_modifier import get_seasonal_multiplier
-from phase2.virus_profiler import profile_from_event
+from backend.profiler.template_matcher import match_template
+from backend.profiler.seasonal_modifier import get_seasonal_multiplier
+from backend.profiler.virus_profiler import profile_from_event
 
 def get_profiles_dir():
     current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -37,7 +37,7 @@ def profile_pathogen(event):
     # Generate profile
     profile = profile_from_event(event, matched_template, conf, seasonal_mult)
     
-    from phase2.profile_versioner import get_next_version, save_profile_version, get_latest_profile
+    from backend.profiler.profile_versioner import get_next_version, save_profile_version, get_latest_profile
     
     # Versioning
     event_id = event.get("event_id", "UNKNOWN_EVENT")
@@ -50,7 +50,7 @@ def profile_pathogen(event):
     return profile
 
 def load_latest_profile(event_id):
-    from phase2.profile_versioner import get_latest_profile
+    from backend.profiler.profile_versioner import get_latest_profile
     return get_latest_profile(event_id)
 
 if __name__ == "__main__":

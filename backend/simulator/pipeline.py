@@ -10,9 +10,9 @@ from datetime import datetime
 # Ensure correct path resolution
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from phase3.monte_carlo import run_monte_carlo
-from phase3.lockdown_optimizer import rank_lockdown_targets
-from phase3.healthcare_capacity import load_capacity, check_overwhelmed
+from backend.simulator.monte_carlo import run_monte_carlo
+from backend.simulator.lockdown_optimizer import rank_lockdown_targets
+from backend.simulator.healthcare_capacity import load_capacity, check_overwhelmed
 
 def get_data_dir():
     current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -137,7 +137,7 @@ def run_phase3(event, profile, origin_node_id, n_runs=100, days=90):
     return output_files, res_no_lockdown, city_status, ranked_targets
 
 if __name__ == "__main__":
-    from phase2.pathogen_profiler import profile_pathogen
+    from backend.profiler.pathogen_profiler import profile_pathogen
     
     # 1. Load the event
     current_dir = os.path.dirname(os.path.abspath(__file__))

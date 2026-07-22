@@ -4,17 +4,37 @@ import json
 import numpy as np
 import networkx as nx
 
-# Adjust path to import phase3 modules
+# Adjust path to import backend.simulator modules
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from phase3.seird_model import run_seird_node
-from phase3.monte_carlo import run_monte_carlo
-from phase3.healthcare_capacity import load_capacity, check_overwhelmed
-from phase3.lockdown_optimizer import rank_lockdown_targets
+from backend.simulator.seird_model import run_seird_node
+from backend.simulator.monte_carlo import run_monte_carlo
+from backend.simulator.healthcare_capacity import load_capacity, check_overwhelmed
+from backend.simulator.lockdown_optimizer import rank_lockdown_targets
+from backend.simulator.simulator_io import get_latest_pathogen_profile
+from backend.simulator.mobility_graph import build_graph
 
-def get_data_dir():
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    return os.path.join(os.path.dirname(current_dir), "data", "generated")
+def get_test_profile():
+    # Read from Supabase directly instead of local files!
+    scenario_id = "bb0ff20e-b086-411b-8054-91560b1e88ec"
+    db_profile = get_latest_pathogen_profile(scenario_id)
+    # Map the DB flat structure to the nested dict expected by run_monte_carlo
+    return {
+        "R0_estimate": (db_profile["r0_low"] + db_profile["r0_high"]) / 2.0,
+        "seasonal_multiplier": 1.0,
+        "data_confidence": db_profile["data_confidence"].upper(),
+        "base_template": {
+            "R0": {"lower_95": db_profile["r0_low"], "upper_95": db_profile["r0_high"]},
+            "incubation_days": {"min": db_profile["incubation_days_low"], "max": db_profile["incubation_days_high"]},
+            "mortality_rate": {
+                "estimate": (db_profile["cfr_low"] + db_profile["cfr_high"]) / 2.0,
+                "lower_95": db_profile["cfr_low"],
+                "upper_95": db_profile["cfr_high"]
+            },
+            "clinical_duration_days": 10,
+            "contagiousness_factor": 1.0
+        }
+    }
 
 def test_seird_conservation():
     N = 100000
@@ -35,15 +55,8 @@ def test_seird_conservation():
         assert abs(t - N) / N < 0.01
 
 def test_confidence_band_monotonicity():
-    profiles_dir = os.path.join(get_data_dir(), "profiles")
-    import glob
-    latest_file = max(glob.glob(os.path.join(profiles_dir, "*.json")), key=os.path.getctime)
-    with open(latest_file, 'r') as f:
-        profile = json.load(f)
-        
-    with open(os.path.join(get_data_dir(), "mobility_graph.json"), 'r') as f:
-        graph_data = json.load(f)
-    G = nx.node_link_graph(graph_data)
+    profile = get_test_profile()
+    G = build_graph()
     
     res = run_monte_carlo(profile, G, "BENGALURU", n_runs=5, days=10)
     
@@ -70,15 +83,8 @@ def test_bengaluru_overwhelmed():
     assert res["overwhelmed"] == True
 
 def test_lockdown_top_edge_is_origin():
-    profiles_dir = os.path.join(get_data_dir(), "profiles")
-    import glob
-    latest_file = max(glob.glob(os.path.join(profiles_dir, "*.json")), key=os.path.getctime)
-    with open(latest_file, 'r') as f:
-        profile = json.load(f)
-        
-    with open(os.path.join(get_data_dir(), "mobility_graph.json"), 'r') as f:
-        graph_data = json.load(f)
-    G = nx.node_link_graph(graph_data)
+    profile = get_test_profile()
+    G = build_graph()
     
     res = run_monte_carlo(profile, G, "THRISSUR", n_runs=5, days=30)
     

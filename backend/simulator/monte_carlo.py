@@ -2,12 +2,12 @@ import numpy as np
 import json
 import os
 import multiprocessing as mp
-from phase3.seird_model import run_seird_node
+from backend.simulator.seird_model import run_seird_node
 import sys
 
 def get_data_dir():
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    return os.path.join(os.path.dirname(current_dir), "data", "generated")
+    return os.path.join(os.path.dirname(os.path.dirname(current_dir)), "data", "generated")
 
 def run_single_simulation(args):
     seed, profile, nodes, graph_dict, origin_node_id, days = args
@@ -120,3 +120,32 @@ def run_monte_carlo(profile, graph, origin_node_id, n_runs=100, days=90):
     }
     
     return output
+
+def apply_intervention(base_graph, intervention_type):
+    import networkx as nx
+    
+    G = nx.node_link_graph(base_graph) if isinstance(base_graph, dict) else base_graph.copy()
+    
+    if intervention_type == "none":
+        pass
+    elif intervention_type == "rail_only":
+        for u, v, d in G.edges(data=True):
+            if "rail" in d.get("mode", "") or "rail" in d.get("modes", []):
+                d["weight"] *= 0.1
+    elif intervention_type == "partial":
+        for u, v, d in G.edges(data=True):
+            if d.get("weight", 0) > 40:
+                d["weight"] *= 0.5
+    elif intervention_type == "full":
+        for u, v, d in G.edges(data=True):
+            d["weight"] *= 0.2
+            
+    return G
+
+def run_all_interventions(profile, base_graph, origin_node_id, n_runs=100, days=90):
+    interventions = ["none", "rail_only", "partial", "full"]
+    results = {}
+    for inv in interventions:
+        modified_graph = apply_intervention(base_graph, inv)
+        results[inv] = run_monte_carlo(profile, modified_graph, origin_node_id, n_runs=n_runs, days=days)
+    return results
